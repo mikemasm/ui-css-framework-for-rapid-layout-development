@@ -1,4 +1,4 @@
-# UI CSS Framework for Rapid Layout Development
+# UI Framework for Rapid Layout Development
 
 A lightweight, utility-first CSS framework designed for building modern user interfaces quickly and efficiently. This framework provides a comprehensive set of grid layouts and utility classes that help developers create responsive, maintainable applications with minimal custom CSS.
 
