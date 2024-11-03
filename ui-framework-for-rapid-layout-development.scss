@@ -620,10 +620,11 @@ background-color: rgba(0, 0, 0, 0.2);
 .column-2, .column-3, .column-4, .column-5, .grid-2-10, .grid-3-9, .grid-4-8, .grid-5-7, .grid-7-5, .grid-8-4, .grid-9-3, .grid-10-2 {
 display: grid;
 grid-template-columns: 100%;
-row-gap: 2rem;
+row-gap: 1rem;
 @media only screen and (min-width: 40.0625em) {
     grid-template-columns: calc(50% - 1rem) calc(50% - 1rem);
     column-gap: 2rem;
+    row-gap: 2rem;
     &.column-no-gap {
         grid-template-columns: 50% 50%;
         column-gap: 0rem; 
@@ -638,7 +639,7 @@ row-gap: 2rem;
     }
 }
 p {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 }
 

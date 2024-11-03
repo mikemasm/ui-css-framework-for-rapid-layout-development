@@ -37476,7 +37476,7 @@ a.c-white:hover, a.c-white:focus {
   display: grid;
   -ms-grid-columns: 100%;
   grid-template-columns: 100%;
-  row-gap: 2rem;
+  row-gap: 1rem;
 }
 @media only screen and (min-width: 40.0625em) {
   .column-2, .column-3, .column-4, .column-5, .grid-2-10, .grid-3-9, .grid-4-8, .grid-5-7, .grid-7-5, .grid-8-4, .grid-9-3, .grid-10-2 {
@@ -37484,6 +37484,7 @@ a.c-white:hover, a.c-white:focus {
     grid-template-columns: calc(50% - 1rem) calc(50% - 1rem);
     -moz-column-gap: 2rem;
          column-gap: 2rem;
+    row-gap: 2rem;
   }
   .column-2.column-no-gap, .column-3.column-no-gap, .column-4.column-no-gap, .column-5.column-no-gap, .grid-2-10.column-no-gap, .grid-3-9.column-no-gap, .grid-4-8.column-no-gap, .grid-5-7.column-no-gap, .grid-7-5.column-no-gap, .grid-8-4.column-no-gap, .grid-9-3.column-no-gap, .grid-10-2.column-no-gap {
     -ms-grid-columns: 50% 0rem 50%;
@@ -37501,7 +37502,7 @@ a.c-white:hover, a.c-white:focus {
   }
 }
 .column-2 p, .column-3 p, .column-4 p, .column-5 p, .grid-2-10 p, .grid-3-9 p, .grid-4-8 p, .grid-5-7 p, .grid-7-5 p, .grid-8-4 p, .grid-9-3 p, .grid-10-2 p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 64.0625em) {
